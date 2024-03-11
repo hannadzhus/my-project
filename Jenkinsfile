@@ -24,7 +24,7 @@ node {
         
         docker.withRegistry('https://registry.hub.docker.com', 'docker') {
             app.push("${env.BUILD_NUMBER}")
-            app.push("1")
+            app.push("hannadzhus")
         }
     }
 }
